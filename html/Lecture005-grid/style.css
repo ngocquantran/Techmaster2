@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.container {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -20px;
+}
+.row > * {
+  flex-shrink: 1;
+  flex-grow: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+.column-1 {
+  flex-basis: 8.3333333%;
+}
+.column-2 {
+  flex-basis: 16.66666666%;
+}
+.column-3 {
+  flex-basis: 25%;
+}
+.column-4 {
+  flex-basis: 33.33333333%;
+}
+.column-5 {
+  flex-basis: 41.666666667%;
+}
+.column-6 {
+  flex-basis: 50%;
+}
+.column-7 {
+  flex-basis: 58.33333333%;
+}
+.column-8 {
+  flex-basis: 66.666666667%;
+}
+.column-9 {
+  flex-basis: 75%;
+}
+.column-10 {
+  flex-basis: 83.33333333%;
+}
+.column-11 {
+  flex-basis: 91.666666667%;
+}
+.column-12 {
+  flex-basis: 100%;
+}
+.offset-1 {
+  margin-left: 8.333333%;
+}
+
+.offset-2 {
+  margin-left: 16.666666%;
+}
+
+.offset-3 {
+  margin-left: 25%;
+}
+UL {
+  list-style-type: none;
+}
+.main-article p {
+  font-size: 25px;
+  font-weight: 700;
+}
+.main-article img {
+  width: 100%;
+}
+.mid-small-article div p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.mid-main-article {
+  border-bottom-width: thin;
+  border-bottom: dashed;
+  border-bottom-color: grey;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mid-small-article {
+  border-bottom-width: thin;
+  border-bottom: dashed;
+  border-bottom-color: grey;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.top-header {
+  background-color: #2e2e2e;
+  height: 25px;
+}
+.top-header-menu {
+  height: 25px;
+  align-items: center;
+}
+.bottom-header {
+  background-color: #222;
+  height: 45px;
+}
+.header {
+  margin-bottom: 30px;
+}
+a {
+  text-decoration: none;
+}
+
+.bottom-header > div {
+  height: 45px;
+  align-items: center;
+}
+.top-header-menu a {
+  color: grey;
+}
+.bottom-header a {
+  color: white;
+}

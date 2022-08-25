@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="template.html :: head('students')">
+    
+</head>
+<body>
+<header th:replace="template.html :: header"></header>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Họ và tên</th>
+        <th scope="col">Lớp</th>
+        <th scope="col">Ngày sinh</th>
+        <th scope="col">Giới tính</th>
+        <th scope="col">Icon</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="student, iState:${students}" th:classappend="${student.value.gender=='nữ'}? female-row : male-row">
+        <td th:text="${iState.index}+1"></td>
+        <td th:text="${student.value.name}"></td>
+        <td th:text="${student.value.className}"></td>
+        <td th:utext="${student.value.birthday}"></td>
+        <td th:text="${student.value.gender}"></td>
+        <td>
+            <span th:if="${student.value.gender=='nữ'}">🙎🏻‍♀</span>
+            <span th:unless="${student.value.gender=='nữ'}">🙎🏻‍♂</span>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<footer th:replace="template.html :: footer"></footer>
+
+</body>
+</html>

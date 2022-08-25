@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49affa23-d5c0-4795-b591-3a4357369a2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../344. Reverse String/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../414_Third_Maximum_Number/src/Bai0414.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tim_kiem_tuan_tu/src/TimKiemTuanTu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tong_a_den_b/src/TongADenB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_1051_Height_Checker/src/Bai1051.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_1221_Split_a_String_in_Balanced_Strings/src/Bai1221.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_136_Single_Number/src/Bai0136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_1636_Sort_Array_by_Increasing_Frequency/src/Bai1636.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_1662_Check_If_Two_String_Arrays_are_Equivalent/src/Bai1662.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_169_Majority_Element/src/Bai0169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_2D_array_recursion/src/MangHaiChieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_35_Search_Insert_Position/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_387_First_Unique_Character_in_a_String/src/Bai0387.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_485_Max_Consecutive_Ones/src/Bai0485.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_645_Set_Mismatch/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_66_Plus_One/src/Bai0066.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_88_Merge_Sorted_Array/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_88_Merge_Sorted_Array/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_88_Merge_Sorted_Array/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_88_Merge_Sorted_Array/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_88_Merge_Sorted_Array/src/Bai0088.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_905_Sort_Array_By_Parity/src/Bai0905.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson_4_practice/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/ConnectDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/ConnectDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Blog/src/main/java/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Users/src/main/java/ConnectDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Users/src/main/java/ConnectDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Users/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Users/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Users/src/main/java/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Users/src/main/java/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Database_006/Practice/Users/src/main/java/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Database_006/Practice/Users/src/main/java/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#ib_16384_0.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#ib_16384_1.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#ib_16384_1.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_1.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_10.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_2.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_3.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_4.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_5.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_6.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_7.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_8.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/binlog.000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/binlog.000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/binlog.000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/binlog.000004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/binlog.000005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/binlog.000006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/binlog.000007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/binlog.000008" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/binlog.000009" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/library/author.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/library/author.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/library/book.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/library/book.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/shoeStore2/product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/shoeStore2/product.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Test/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Test/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/Practice3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/src/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/src/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/src/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture010/Practice/ReadJson/src/main/java/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture010/Practice/ReadJson/src/main/java/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture013/Homework/CustomerInfo/out/production/CustomerInfo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture013/Homework/CustomerInfo/out/production/CustomerInfo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture013/Homework/CustomerInfo/out/production/CustomerInfo/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture013/Homework/CustomerInfo/out/production/CustomerInfo/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture013/Homework/CustomerInfo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture013/Homework/CustomerInfo/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture013/Homework/CustomerInfo/src/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture013/Homework/CustomerInfo/src/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture013/Practice/Practice04/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture013/Practice/Practice04/src/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture013/Practice/Practice04/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture013/Practice/Practice04/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture013/Practice/Practice04/src/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture013/Practice/Practice04/src/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture014/Practice/Practice01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture014/Practice/Practice01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture014/Practice2/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture014/Practice2/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture014/Practice2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture014/Practice2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Javascript/lesson3/homework/Date/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javascript/lesson3/homework/Date/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Javascript/lesson7/homework/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javascript/lesson7/homework/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Javascript/lesson7/practice/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javascript/lesson7/practice/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/HTML.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/bai mot.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/doanhnghiep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/aboutme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/homepage_img01.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/homepage_img02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/homepage_img03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/homepage_img04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/homepage_img05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/homepage_img06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/homepage_img07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/homepage_img08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/homepage_img09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/homepage/homepage_img10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/session1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/session1_media/ss1_audio1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/session1_media/ss2_audio1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/session1_media/ss3_audio1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/session2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/session3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/unit2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/homework1/unit3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/khoahoc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/lotrinh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/new/hinh nah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture001/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/CSS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/background2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/background3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/background4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/amthuc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/css/amthuc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/css/diemden.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/css/lichsu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/css/trangchu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/diemden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/amthuc/amthuc-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/amthuc/amthuc-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/amthuc/amthuc-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/amthuc/amthuc-img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/amthuc/amthuc-img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/amthuc/amthuc-img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/amthuc/amthuc-img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/amthuc/amthuc-img8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/background-hp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/diemden/diemden-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/diemden/diemden-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/diemden/diemden-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/diemden/diemden-img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/diemden/diemden-img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/diemden/diemden-img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/diemden/diemden-img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/diemden/diemden-img8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/lichsu/ls1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/lichsu/ls2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/lichsu/ls3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/img/lichsu/ls4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/lichsu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2 - Copy/trangchu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/amthuc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/css/amthuc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/css/diemden.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/css/lichsu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/css/trangchu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/diemden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/amthuc/amthuc-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/amthuc/amthuc-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/amthuc/amthuc-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/amthuc/amthuc-img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/amthuc/amthuc-img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/amthuc/amthuc-img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/amthuc/amthuc-img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/amthuc/amthuc-img8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/background-hp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/diemden/diemden-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/diemden/diemden-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/diemden/diemden-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/diemden/diemden-img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/diemden/diemden-img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/diemden/diemden-img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/diemden/diemden-img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/diemden/diemden-img8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/lichsu/ls1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/lichsu/ls2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/lichsu/ls3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/img/lichsu/ls4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/lichsu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture002/homework2/trangchu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/860op/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/860op/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/860op/sandbox.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/860op/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/Box Model, HTML5 Layout.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/aboutme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/avt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/hoathinh/hoathinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/hoathinh/hoathinh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/hoathinh/hoathinh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/hoathinh/hoathinh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/hoathinh/hoathinh5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/hoathinh/hoathinh6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/hoathinh/hoathinh7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/hoathinh/hoathinh8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/logo_v8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/tin-anime/anime9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/truyentranh/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/truyentranh/truyen1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/truyentranh/truyen2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/truyentranh/truyen3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/truyentranh/truyen4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/truyentranh/truyen5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/img/truyentranh/truyen6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/homework3/vuighe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/img/diemden-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/img/diemden-img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/img/diemden-img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/img/diemden-img8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/practice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/practice2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/hh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/hh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/hh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/hh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/hh5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/hh6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/hh7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/hh8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/logo_v8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tin9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tt1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tt2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tt3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tt4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tt5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/img/tt6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/r1otc/sandbox.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture003/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/CSS Flexbox.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/footerbackground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbohot/phimbohot2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbohot/phimbohot3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbohot/phimbohot4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbohot/phimbohot5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbohot/phimbohot6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbohot/phimbohot7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbohot/phimbohot8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbomoi/5star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbomoi/Phimbo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbomoi/Phimbo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbomoi/Phimbo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbomoi/Phimbo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbomoi/Phimbo6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbomoi/Phimbo7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbomoi/Phimbo8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbomoi/phimbo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/img/phimbomoi/tag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/ssphim.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/homework4/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/practice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture004-flex/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/facebook.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img10.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img11.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img12.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/img9.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/img/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/monarch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/homework5/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/practice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture005-grid/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/Table, Form, Multimedia.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/audio.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/about-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/about-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/about-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/about-img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/appointment-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/background2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/blog-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/blog-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/blog-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/flower1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/flower2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/flower3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/pageicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/procedure-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/procedure-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/procedure-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/quote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/team-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/team-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/team-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/Italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/agenda.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/alarm-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/align-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/align-justify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/align-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/align-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/anchor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/angle-double-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/angle-double-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/angle-double-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/angle-double-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/angle-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/angle-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/angle-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/angle-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/announcement.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/apple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/archive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow-circle-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow-circle-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow-circle-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow-circle-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow-top-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow-top-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrows-corner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrows-horizontal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/arrows-vertical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/back-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/back-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/bag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/bar-chart-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/bar-chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/basketball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/bell.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/blackboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/bolt-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/bolt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/bookmark-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/bookmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/briefcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/brush-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/brush.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/car.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/check-box.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/clip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/clipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/cloud-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/cloud-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/comment-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/comment.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/comments-smiley.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/control-backward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/control-eject.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/control-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/control-pause.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/control-play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/control-record.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/control-shuffle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/control-skip-backward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/control-skip-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/control-stop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/credit-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/crown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/css3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/cup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/cut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/dashboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/desktop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/direction-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/direction.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/dribbble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/dropbox-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/dropbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/drupal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/envelope.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/eraser.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/exchange-vertical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/export.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/face-sad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/face-smile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/files.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/flag-alt-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/flag-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/flickr-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/flickr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/folder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/fullscreen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/gallery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/game.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/gift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/hand-drag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/hand-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/hand-point-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/hand-point-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/hand-point-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/hand-point-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/hand-stop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/harddrive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/harddrives.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/headphone-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/headphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/heart-broken.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/help-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/help.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/html5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/hummer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/id-badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/import.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/infinite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/info-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/info.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/ink-pen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/joomla.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/jsfiddle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layers-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-accordion-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-accordion-merged.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-accordion-separated.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-column2-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-column2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-column3-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-column3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-column4-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-column4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-cta-btn-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-cta-btn-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-cta-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-cta-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-cta-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-grid2-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-grid2-thumb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-grid2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-grid3-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-grid3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-grid4-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-grid4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-line-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-list-large-image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-list-post.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-list-thumb-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-list-thumb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-media-center-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-media-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-media-left-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-media-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-media-overlay-alt-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-media-overlay-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-media-overlay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-media-right-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-media-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-menu-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-menu-separated.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-menu-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-sidebar-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-sidebar-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-sidebar-none.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-sidebar-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-slider-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-slider.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-tab-min.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-tab-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-tab-window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-width-default-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-width-default.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout-width-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/layout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/light-bulb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/line-dashed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/line-dotted.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/line-double.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/linux.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/list-ol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/location-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/location-pin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/loop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/magnet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/map-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/marker-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/marker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/medall-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/medall.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/menu-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/microphone-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/microphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/microsoft-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/microsoft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/money.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/more-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/more.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/mouse-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/mouse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/music-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/music.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/na.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/new-window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/notepad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/package.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/paint-bucket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/paint-roller.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/palette.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/panel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/paragraph.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/pencil-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/pencil-alt2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/pencil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/pie-chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/pin-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/pin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/pin2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/pinterest-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/pinterest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/plug.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/power-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/printer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/pulse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/quote-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/quote-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/receipt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/reddit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/reload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/rocket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/rss-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/rss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/ruler-alt-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/ruler-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/ruler-pencil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/ruler.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/save-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/server.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/settings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/share-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/sharethis-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/sharethis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/shield.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/shift-left-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/shift-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/shift-right-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/shift-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/shine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/shopping-cart-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/shopping-cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/shortcode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/signal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/skype.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/slice.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/smallcap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/soundcloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/split-h.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/split-v-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/split-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/spray.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/stack-overflow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/stamp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/stats-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/stats-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/support.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/tablet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/tag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/target.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/themify-favicon-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/themify-favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/themify-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/thought.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/thumb-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/thumb-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/ticket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/time.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/timer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/trello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/truck.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/tumblr-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/tumblr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/twitter-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/underline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/unlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/unlock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/uppercase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/video-camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/video-clapper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/view-grid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/view-list-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/view-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/vimeo-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/vimeo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/volume.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/wallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/wand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/wheelchair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/widget-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/widget.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/widgetized.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/wordpress.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/world.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/write.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/yahoo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/zip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/zoom-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/SVG/zoom-out.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/Themify IconFonts 5-23-2014.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/demo-files/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/fonts/themify.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/fonts/themify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/fonts/themify.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/fonts/themify.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/ie7/ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/ie7/ie7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/img/themify-icons/themify-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/leospa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/homework6/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/jomaimg.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/myvideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/practice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/practice2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture006-multimedia/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture008-position/CSS Position.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture008-position/homework8/img/discount-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture008-position/homework8/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture008-position/homework8/img/menu-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture008-position/homework8/lazada.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture008-position/homework8/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture008-position/practice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture008-position/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/First.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/out/production/First/Date.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/out/production/First/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/out/production/First/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/src/Date.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/First/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/Java-homework-01/Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/Java-homework-01/Calculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/Java-homework-01/Calculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/Java-homework-01/Calculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/Java-homework-01/Calculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/Java-homework-01/Calculator/out/production/Calculator/Bmi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/Java-homework-01/Calculator/out/production/Calculator/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/Java-homework-01/src/Bmi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/Java-homework-01/src/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/Java_Core_1_Fundamental.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/practice2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/practice2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/practice2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/practice2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/practice2/out/production/practice2/HinhTron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/practice2/out/production/practice2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/practice2/practice2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/practice2/src/HinhTron.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture009-java01/practice2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/.idea/lecture010-java02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.1/homework02.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.1/out/production/homework02.1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.2/homework02.2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.2/out/production/homework02.2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/homework010/homework02.2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/out/production/practice/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/out/production/practice/ScannerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/Datetime/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/Datetime/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/Datetime/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/Datetime/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/Datetime/Datetime.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/Datetime/out/production/Datetime/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/Datetime/out/production/Datetime/ScannerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/Datetime/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/Datetime/src/ScannerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture010-java02/practice/practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.1/homework3.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.1/out/production/homework3.1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.2/homework3.2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.2/out/production/homework3.2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/homework011/homework3.2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/practice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/practice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/practice/Practice11/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/practice/Practice11/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/practice/Practice11/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/practice/Practice11/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/practice/Practice11/Practice11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/practice/Practice11/out/production/Practice11/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture011-java03/practice/Practice11/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/homework04/homework4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/homework04/homework4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/homework04/homework4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/homework04/homework4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/homework04/homework4/homework4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/homework04/homework4/out/production/homework4/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/homework04/homework4/out/production/homework4/StArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/homework04/homework4/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/homework04/homework4/src/StArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/out/production/practice04/ArrayExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/out/production/practice04/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/out/production/practice04/MultiArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/practice04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/src/ArrayExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture012-java04/practice/practice04/src/MultiArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test01/Test01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test01/out/production/Test01/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test01/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test02/Test02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test02/out/production/Test02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test02/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test03/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test03/Test03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test03/out/production/Test03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test03/out/production/Test03/SoNguyenTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test03/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test03/src/SoNguyenTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test04/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test04/Test04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test04/out/production/Test04/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test04/out/production/Test04/SoNguyenTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test04/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test04/src/SoNguyenTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test05/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test05/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test05/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test05/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test05/Test05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test05/out/production/Test05/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test05/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test05/src/StringEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test06/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test06/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test06/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test06/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test06/Test06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test06/out/production/Test06/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture013-java05/Test06/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/Homework6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/out/production/Homework6/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/out/production/Homework6/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/out/production/Homework6/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/out/production/Homework6/ProductUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/src/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/src/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Homework/Homework6/src/ProductUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Java_Core_2_OOP.pptx (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/out/production/Practice/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/out/production/Practice/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/out/production/Practice/Gender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/out/production/Practice/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/out/production/Practice/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/out/production/Practice/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/out/production/Practice/Size.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/out/production/Practice/Speed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/out/production/Practice/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/out/production/Practice/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/src/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/src/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/src/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/src/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/src/Size.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/src/Speed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice/src/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice2/Practice2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice2/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice3/Practice3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice3/src/HinhTron.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture014-java06/Practice3/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27TOjRIkVYB1vGBq2wXsHgqp7a0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49affa23-d5c0-4795-b591-3a4357369a2c" name="Changes" comment="" />
+      <created>1649340745848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649340745848</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

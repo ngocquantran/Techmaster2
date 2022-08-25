@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let money = 33;
+
+      const buyIphone = () => {
+        return new Promise(function (resolve, reject) {
+          if (money >= 33) {
+            resolve("Mua iphone thành công");
+          } else {
+            reject("Không đủ tiền mua iphone");
+          }
+        });
+      };
+
+      const buyAirpod = () => {
+        return new Promise(function (resolve, reject) {
+          if (money >= 33 + 5) {
+            resolve("Mua thêm airpod");
+          } else {
+            reject("Không đủ tiền mua thêm airpod");
+          }
+        });
+      };
+
+      const buy = async () => {
+        try {
+          let res = await buyIphone();
+          console.log(res);
+
+          let res1 = await buyAirpod();
+          console.log(res1);
+        } catch (error) {
+          console.log(error);
+        }
+
+        return "về nhà";
+      };
+
+      buy();
+      console.log(buy());
+      buy()
+        .then((res) => console.log(res))
+        .catch((error) => console.log(error));
+    </script>
+  </body>
+</html>

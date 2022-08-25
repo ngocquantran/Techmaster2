@@ -1,0 +1,108 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inline-block {
+  display: inline-block;
+}
+.page {
+  border: solid lightgray;
+  padding: 6px 9px;
+  border-radius: 15px;
+  margin-right: 10px;
+  border-width: thin;
+  font-size: 12px;
+  text-align: center;
+}
+.header {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.logo {
+  margin-right: 80px;
+  vertical-align: middle;
+}
+input {
+  border-radius: 15px;
+  line-height: 24px;
+  width: 300px;
+  border-width: thin;
+  border-color: lightgray;
+  padding-left: 10px;
+}
+.anime-item {
+  word-spacing: -1ch;
+}
+.anime-text {
+  width: 155px;
+  height: 96px;
+  text-align: left;
+  vertical-align: top;
+  overflow: hidden;
+  word-spacing: normal;
+}
+.anime-line1 {
+  word-spacing: -1ch;
+}
+.anime-line2 {
+  word-spacing: -1ch;
+}
+.anime-line3 {
+  word-spacing: -1ch;
+}
+.hoathinh-item {
+  vertical-align: top;
+}
+.hoathinh-text {
+  width: 319px;
+  word-spacing: normal;
+}
+.hoathinh-list {
+  word-spacing: -1ch;
+}
+.truyen-item {
+  vertical-align: top;
+}
+.truyen-text {
+  width: 210px;
+  text-align: left;
+}
+.word-spacing {
+  word-spacing: -1ch;
+}
+.spacing-normal {
+  word-spacing: normal;
+}
+.ml-1 {
+  margin-left: 7.5px;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+.ml-16 {
+  margin-left: 6px;
+}
+.test {
+  border: solid black;
+  width: 1300px;
+  height: 300px;
+}
+.margin-top-1 {
+  margin-top: 6px;
+}

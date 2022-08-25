@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    background-color: rgb(228, 226, 226);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    background-color: rgb(252, 251, 249);
+    --dimension:500px;
+    width: var(--dimension);
+    height: calc(var(--dimension)*1.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title {
+    margin: 40px 20px 20px 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    border-bottom: lightgray solid 1px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    
+}
+
+.input-field, .selection-field {
+    margin: 20px 20px;
+    position: relative;
+}
+
+.input-field label {
+    font-size: 1.8rem;
+
+}
+
+.input-field input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(238, 235, 235);
+    
+    background-color: rgb(252, 251, 249);
+    padding-left: 45px;
+    
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.input-field i{
+    color: rgb(88, 86, 86);
+    font-size: 16px;
+    padding: 12px 12px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(238, 235, 235);
+}
+
+.selection-field label {
+    font-size: 1.8rem;
+
+}
+
+.selection-field input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(238, 235, 235);
+    
+    background-color: rgb(252, 251, 249);
+    padding-left: 10px;
+}
+
+.result, .warn {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.calculate {
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 40px;
+    font-size: 1.8rem;
+    background-color: rgb(238, 235, 235);
+    border: none;
+    border-radius: 5px;
+
+}
+.calculate:hover {
+    background-color: bisque;
+}
+
+.selection {
+    width: 100%;
+    padding-left: 10px;
+     width: 100%;
+    height: 40px;
+    border: 1px solid rgb(238, 235, 235);
+    background-color: rgb(252, 251, 249);
+    color: rgb(105, 102, 102);
+}
+.selection:focus{
+    outline: none;
+}

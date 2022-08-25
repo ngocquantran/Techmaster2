@@ -1,0 +1,42 @@
+.menu-chinh {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(133, 129, 129);
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+}
+li {
+  float: left;
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(71, 67, 67);
+}
+.active {
+  background-color: red;
+}
+.content {
+  border: none;
+  margin-left: 300px;
+  margin-right: 500px;
+  text-align: justify;
+}
+.text-blue {
+  color: rgb(14, 4, 97);
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}

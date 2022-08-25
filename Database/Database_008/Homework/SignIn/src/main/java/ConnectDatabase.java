@@ -1,0 +1,24 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class ConnectDatabase {
+    String hostName="localhost:8080";
+    String dbName="shoeStore2";
+    String username="root";
+    String password="123";
+
+    String url="jdbc:mysql://"+hostName+"/"+dbName;
+
+    public Connection connect(){
+        Connection connection=null;
+        try {
+            connection= DriverManager.getConnection(url,username,password);
+//            System.out.println("Kết nối thành công");
+        } catch (SQLException e) {
+//            System.out.println("Kết nối không thành công");
+            e.printStackTrace();
+        }
+        return connection;
+    }
+}

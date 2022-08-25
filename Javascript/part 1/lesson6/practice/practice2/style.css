@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+   background-color: rgb(228, 226, 226);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+     --dimension: 500px ;
+    width: var(--dimension);
+   
+    background-color: rgb(252, 251, 249);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input-field{
+    display: flex;
+    height: 40px;
+    margin-bottom: 20px;
+    border: solid thin lightgray;
+    border-radius: 5px;
+}
+
+.input-task{
+    width: 400px;
+    padding-left: 10px;
+    border: none;
+
+}
+.add-btn{
+    width: 60px;
+    background-color: rgb(126, 233, 236);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.add-btn:hover {
+    background-color: rgb(43, 199, 63);
+}
+
+input:focus{
+    outline: none;
+}
+
+.task-list {
+    overflow: auto;
+    height: 370px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(55, 224, 236);
+    border-radius: 5px;
+}
+
+.task-name{
+    font-size: 1.6rem;
+    line-height: 40px;
+    padding-left: 10px;
+    
+}
+
+
+
+.task-item{
+    position: relative;
+    align-items: center;
+    border: solid lightgray;
+    border-width: thin;
+    margin-top: 5px;
+    height: 40px;
+    
+}
+
+i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: red;
+}
+
+i:hover{
+    font-size: 20px;
+    right:17px;
+}
+
+.description {
+    margin-top: 30px;
+    display: flex;
+    height: 40px;
+    margin-bottom: 40px;
+    
+
+}
+
+.notification {
+    line-height: 40px;
+    width: 380px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.clearAll-btn {
+    width: 80px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.clearAll-btn:hover {
+    background-color: crimson;
+}

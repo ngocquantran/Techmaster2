@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/practice2/style.css">
+     <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/practice2/script2.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <p class="title">Simple Todo App</p>
+            <div class="input-field">
+                <input type="text" name="" id="" placeholder="Add new todo" class="input-task">
+                <button class="add-btn">Add</button>
+
+            </div>
+            <div class="task-list">
+                
+            </div>
+            <template class="task-item-template">
+                   <div class="task-item">
+                       <p class="task-name">Buying a new gaming laptop</p>
+                       <!-- <button class="clear-btn">Clear</button> -->
+                       <i class="bi bi-trash3 clear-btn" ></i>
+                       
+                       
+                   </div> 
+                </template>
+                <!-- <p class="task-item">Buying a new gaming laptop</p>
+                <p class="task-item">Complete previous homework</p> -->
+
+            <div class="description">
+                <div class="notification">
+                    <p >You have <span class="task-count"></span> pending task</p>
+                </div>
+                
+                <button class="clearAll-btn">Clear All</button>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

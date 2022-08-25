@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        height: 40px;
+        width: 100px;
+        margin-right: 20px;
+      }
+      input {
+        width: 200px;
+        height: 50px;
+      }
+    </style>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <label for="">Height</label>
+    <input type="text" class="height" required />
+    <label for="">Weight</label>
+    <input type="text" class="weight" required />
+
+    <button class="btn-get">Tính BMI (GET)</button>
+    <button class="btn-post">Tính BMI (POST)</button>
+
+    <div class="result">
+      <p>Chỉ số BMI: <span></span></p>
+      <div class="comment"></div>
+    </div>
+
+    <script>
+      const $btnGet = $(".btn-get");
+      const $btnPost = $(".btn-post");
+      const $inputHeight = $(".height");
+      const $inputWeight = $(".weight");
+      const $bmi = $(".result span");
+      const $comment = $(".comment");
+
+      function getBMI(height, weight) {
+        $.ajax({
+          type: "GET",
+          url: `http://localhost:8080/bmi?height=${height}&weight=${weight}`,
+          //    data: "data",
+          //    dataType: "",
+          success: function (response) {
+            console.log(response);
+            showResult(response);
+          },
+        });
+      }
+
+      function getBMI2(obj) {
+        $.ajax({
+          type: "post",
+          url: "http://localhost:8080/bmi",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          data: JSON.stringify(obj),
+          success: function (response) {
+           
+            console.log(response);
+            showResult(response);
+          },
+          error: function (e) {
+            console.log(e);
+          },
+        });
+      }
+
+      $btnGet.on("click", function () {
+        getBMI($inputHeight.val(), $inputWeight.val());
+      });
+
+      $btnPost.on("click", function () {
+        let obj = {
+          height: $inputHeight.val(),
+          weight: $inputWeight.val(),
+        };
+        getBMI2(obj);
+      });
+
+      function showResult(bmi) {
+        $bmi.text(bmi);
+        if (bmi < 18.5) {
+          $comment.text("Thiếu cân");
+        } else if (bmi <= 24.9) {
+          $comment.text("Bình thường");
+        } else if (bmi <= 29.9) {
+          $comment.text("Thừa cân");
+        } else {
+          $comment.text("Béo phì");
+        }
+      }
+    </script>
+  </body>
+</html>

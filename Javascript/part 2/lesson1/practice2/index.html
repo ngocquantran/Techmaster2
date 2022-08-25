@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="heading">Bài tập thực hành DOM</h1>
+    <p class="para para-1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.11111111111111111
+    </p>
+    <p class="para para-2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. hahahaha.
+    </p>
+    <p class="para para-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    <div class="content">
+      <h2 id="title">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </h2>
+      <p class="description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+        voluptatibus sint molestias sit odit quia labore alias! Accusamus magnam
+        aperiam officiis? Laboriosam numquam at eum dicta quos temporibus in
+        aliquid?
+      </p>
+    </div>
+
+    <script>
+        const heading=document.getElementById("heading");
+        console.log(heading);
+        heading.style.color="red";
+        heading.style.textTransform="uppercase";
+
+
+        const paras=document.querySelectorAll(".para");
+        paras.forEach(function(para){
+            para.style.color="blue";
+            para.style.fontSize="40px";
+        })
+
+        const googleLink=document.createElement("a");
+        googleLink.innerText="Facebook";
+        googleLink.href="https://www.facebook.com/";
+        const para3=document.querySelector(".para-3");
+        para3.insertAdjacentElement("afterend", googleLink);
+
+
+        const title=document.getElementById("title");
+        title.innerText="Đây là thẻ tiêu đề";
+
+        const desc=document.querySelector(".description");
+        desc.classList.add("text-bold");
+
+
+        const btn=document.createElement("button");
+        btn.innerText="Click me";
+        para3.parentNode.replaceChild(btn,para3);
+
+        const para2Copy=document.querySelector(".para-2").cloneNode(true);
+        document.querySelector(".para-2").insertAdjacentElement("afterend",para2Copy);
+
+
+        const para1=document.querySelector(".para-1");
+        para1.parentNode.removeChild(para1);
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>

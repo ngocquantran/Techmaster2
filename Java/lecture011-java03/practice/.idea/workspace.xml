@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4dcd052-c376-4ca9-ad6e-c0af3141e8cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice01/src/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice01/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice01/src/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice01/src/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice01/src/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice2/src/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Lecture011/Practice/Practice2/src/info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/out/production/Practice2/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice2/src/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/Practice3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/src/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/src/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/src/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Lecture009/Practice/Practice3/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="23e2xd49HrbiWu2ne2gJl8sgWQL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4dcd052-c376-4ca9-ad6e-c0af3141e8cb" name="Changes" comment="" />
+      <created>1642080480980</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642080480980</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+ 
+1. Create an EC2 instance which set security group for both port 80,22,443
+
+2. Set file key pem (phân quyền lại): nháy phải chọn properties -> Security -> Advanced -> Disable inheritance
+ -> Remove all inherited permission from this object -> Add -> Select a pricipal -> Nhập Location\userName (xem trong C:/user) -> OK -> apply
+
+
+3. Trong command, gọi vào đường dẫn đến thư mục lưu file private key pem và thư mực web cần copy: kết nối SSH client
+- netstat -ltn : to see all active Internet connections (only servers)
+- 
+
+- sudo su
+- yum update -y
+- yum install httpd -y
+- cd /var/www/html
+- chown ec2-user .
+- systemctl start httpd.service
+- netstat -ltn
+
+
+4. Trong cửa sổ command khác, gọi vào đường dẫn đến thư mục lưu file private key pem và thư mực web cần copy
+- scp -i ./key.pem(Path đến file key pem, do đã chọn đường dẫn trực tiếp đến thư mục chứa nó nên chỉ cần nhập tên file) -r ./staticweb(tên thư mục cần copy, nếu chỉ muốn copy các thư mục bên trong nó thì thêm /* phía sau)/* ec2-user@175.41.177.125(public DNS):/var/www/html(thư mục cần copy đến)

@@ -1,0 +1,41 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.background-img {
+  background-image: url(../img/background-hp.jpg);
+  filter: blur(3px);
+  background-color: aqua;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-menu {
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  text-align: center;
+  border: solid;
+  border-width: 3px;
+  padding: 20px 20px 20px 20px;
+}
+div h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  background-color: yellow;
+}
+div h1 {
+  font-size: 50px;
+}

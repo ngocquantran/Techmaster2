@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main-breed {
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+      }
+      .btn-get-sub {
+        height: 40px;
+        background-color: rgb(29, 211, 29);
+        border: none;
+        border-radius: 3px;
+        padding: 0 10px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .hidden {
+        display: none;
+      }
+      .sub-list-container-none li,
+      .sub-list-container-available li {
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+        font-size: 18px;
+        transform-origin: 50% 50%;
+        animation: fadeIn linear 1s;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateX(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      .sub-list-container-available li:hover {
+        color: red;
+      }
+
+      .image {
+        width: 300px;
+        height: 300px;
+      }
+      .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <h2>Breeds List</h2>
+    <select name="" id="" class="main-breed"></select>
+    <button class="btn-get-sub">Get Sub Breed</button>
+
+    <div class="sub-list hidden">
+      <h2 class="sub-list-header">Sub Breeds List</h2>
+      <div class="sub-list-container">
+        <ul class="sub-list-container-none hidden">
+          <li>Không có sub breed</li>
+        </ul>
+        <ul class="sub-list-container-available hidden"></ul>
+
+        <div class="image">
+          <img src="" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(function () {
+        const $mainBreed = $(".main-breed");
+        const $btn = $(".btn-get-sub");
+        const $subView = $(".sub-list");
+        const $subViewNone = $(".sub-list-container-none");
+        const $subViewAvailable = $(".sub-list-container-available");
+
+        async function getMainBreed() {
+          try {
+            let res = await axios.get("https://dog.ceo/api/breeds/list/all");
+
+            displayMainBreed(res.data.message);
+          } catch (error) {
+            console.log(error);
+          }
+        }
+
+        getMainBreed();
+
+        function displayMainBreed(obj) {
+          let breeds = Object.keys(obj);
+          let html = "";
+          breeds.forEach(function (breed) {
+            html += `<option value="${breed}">${breed}</option>`;
+          });
+          $mainBreed.html(html);
+        }
+
+        async function getSubBreed(mainBreed) {
+          try {
+            let res = await axios.get("https://dog.ceo/api/breeds/list/all");
+            console.log(res.data.message[`${mainBreed}`]);
+
+            disPlaySubBreed(res.data.message[`${mainBreed}`]);
+            showImage();
+          } catch (error) {
+            console.log(error);
+          }
+        }
+
+        function disPlaySubBreed(arr) {
+          if (arr.length == 0) {
+            $subView.removeClass("hidden");
+            $subViewNone.removeClass("hidden");
+            $subViewAvailable.addClass("hidden");
+          } else {
+            $subView.removeClass("hidden");
+            $subViewNone.addClass("hidden");
+            $subViewAvailable.removeClass("hidden");
+            let html = "";
+            arr.forEach(function (breed) {
+              html += `<li>${breed}</li>`;
+            });
+            $subViewAvailable.html(html);
+          }
+        }
+
+        $btn.on("click", function () {
+          let mainBreed = $mainBreed.val();
+          $(".image").html("");
+          getSubBreed(mainBreed);
+        });
+
+        async function getRandomImage(main, sub) {
+          try {
+            let res = await axios.get(
+              `https://dog.ceo/api/breed/${main}/${sub}/images/random`
+            );
+            console.log(res);
+            let html = `<img src="${res.data.message}" alt="" />`;
+            $(".image").html(html);
+          } catch (error) {
+            console.log(error);
+          }
+        }
+
+        function showImage() {
+          $(".sub-list-container-available li").each(function (index, item) {
+            $(item).on("click", function () {
+              console.log($(item).text());
+              let main = $mainBreed.val();
+              let sub = $(item).text();
+              getRandomImage(main, sub);
+            });
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

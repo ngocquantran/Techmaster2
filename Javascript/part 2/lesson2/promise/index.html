@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   let promise = new Promise(function (resolve, reject) {
+      //     // resolve("Thực hiện thành công");
+      //     reject("Thất bại");
+      //   });
+
+      //   console.log(promise);
+
+      let money = 40;
+
+      const buyIphone = () => {
+        return new Promise(function (resolve, reject) {
+          if (money >= 33) {
+            resolve("Mua iphone thành công");
+          } else {
+            reject("Không đủ tiền mua iphone");
+          }
+        });
+      };
+
+      const buyAirpod = () => {
+        return new Promise(function (resolve, reject) {
+          if (money >= 33 + 5) {
+            resolve("Mua thêm airpod");
+          } else {
+            reject("Không đủ tiền mua thêm airpod");
+          }
+        });
+      };
+
+      //   console.log(buyIphone());
+
+      //   buyIphone()
+      //     .then((res) => console.log(res))
+      //     .catch((error) => console.log(error));
+
+    //   buyIphone()
+    //     .then((res) => {
+    //       console.log(res);
+    //       return buyAirpod();
+    //     })
+    //     .then((res) => {
+    //       console.log(res);
+    //     })
+    //     .catch((error) => {
+    //       console.log(error);
+    //     })
+    //     .finally(()=>{
+    //         console.log("Vẫn phải cày tiếp thôi");
+    //     });
+
+    Promise.all([buyIphone(),buyAirpod()])
+    .then(res=>console.log(res))
+    .catch(error=>console.log(error));
+
+    
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>

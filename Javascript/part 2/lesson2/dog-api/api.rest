@@ -1,0 +1,6 @@
+GET https://images.dog.ceo/breeds/deerhound-scottish/n02092002_2723.jpg HTTP/1.1
+
+
+###
+
+GET https://dog.ceo/api/breeds/list/all HTTP/1.1

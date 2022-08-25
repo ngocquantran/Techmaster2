@@ -1,0 +1,36 @@
+.circle {
+  border: solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: aqua;
+  object-fit: cover;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.box {
+  border: 10px solid grey;
+  width: 500px;
+
+  background-color: burlywood;
+  padding: 20px 30px 50px 40px;
+  margin: auto;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+  background-color: white;
+  padding-left: 50px;
+}
+body {
+  background-color: grey;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  height: 50px;
+  display: block;
+}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <title>Document</title>
+
+    <!-- Reset CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font Balootamma -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="asset/font/fontawesome-free-6.1.1-web/css/all.min.css"
+    />
+
+    <!-- Jquery SLider -->
+    <link
+      rel="stylesheet"
+      href="asset/library/lightslider-master/dist/css/lightslider.css"
+    />
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="asset/css/base.css" />
+    <link rel="stylesheet" href="asset/css/grid.css" />
+    <link rel="stylesheet" href="asset/css/common.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="asset/css/home.css" />
+    <link rel="stylesheet" href="asset/css/responsive.css" />
+
+    <!-- Javascript -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <script src="asset/library/lightslider-master/dist/js/lightslider.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="asset/js/index.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <div class="header">
+        <div class="grid-wide">
+          <div class="header-nav">
+            <div class="header-nav-left">
+              <div class="header-nav-item nav-item-home">
+                <a href="">
+                  <img src="asset/img/home/header/logo.jpg" alt="" />
+                </a>
+              </div>
+              <div class="header-nav-item nav-item-personal">
+                <a href="">
+                  <i></i>
+                  <span>CÁ NHÂN</span>
+                </a>
+              </div>
+              <div class="header-nav-item nav-item-course">
+                <i></i>
+                <p class="">KHÓA HỌC</p>
+                <ul class="header-nav-item-sub-menu">
+                  <li class="header-nav-item-sub-item">Khóa học Miễn phí</li>
+                  <li class="header-nav-item-sub-item">
+                    Từ vựng theo chuẩn CEFR
+                  </li>
+                  <li class="header-nav-item-sub-item">
+                    Từ vựng theo Chứng chỉ Quốc tế
+                  </li>
+                  <li class="header-nav-item-sub-item">Từ vựng cho Học sinh</li>
+                  <li class="header-nav-item-sub-item">Từ vựng Giao tiếp</li>
+                  <li class="header-nav-item-sub-item">
+                    Từ vựng Thương mại, Kinh tế
+                  </li>
+                  <li class="header-nav-item-sub-item">Từ vựng Chuyên ngành</li>
+                </ul>
+              </div>
+            </div>
+            <div class="header-nav-right">
+              <div class="header-nav-item">ĐĂNG NHẬP</div>
+              <div class="header-nav-item">
+                <a href="">
+                  <img src="asset/img/home/header/menu-vip-button.svg" alt="" />
+                </a>
+              </div>
+              <div class="header-nav-item nav-item-user">
+                <a href="">
+                  <img src="asset/img/home/header/default_avt.png" alt="" />
+                </a>
+                <ul class="header-nav-item-sub-menu">
+                  <li class="header-nav-item-sub-item">
+                    <a href=""> Trang cá nhân </a>
+                  </li>
+                  <li class="header-nav-item-sub-item">
+                    <a href=""> Cài đặt chung </a>
+                  </li>
+                  <li class="header-nav-item-sub-item">
+                    <a href=""> Đăng xuất </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="grid-wide">
+          <div class="container__selection">
+            <div class="container__section-header">Kỹ năng</div>
+            <div class="container__selection-wrapper">
+              <ul class="container__selection__list"></ul>
+            </div>
+          </div>
+
+          <div class="container__cur-course">
+            <div class="container__section-header">Khóa bạn đang học</div>
+            <div class="container__cur-course-wrapper">
+              <ul class="container__cur-course-list">
+                <li class="container__cur-course-item">
+                  <a href="">
+                    <div class="container__cur-course-item-thumb">
+                      <img
+                        src="asset/img/home/container/course_thumb/english-words-for-elementary-1621595753.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="container__cur-course-item-detail">
+                      <div class="container__cur-course-item-name">
+                        English Words For Elementary (A1)
+                      </div>
+                      <div class="container__cur-course-item-progress">
+                        <div class="container__cur-course-item-progress-desc">
+                          Đã học <span>12</span> / <span>35</span> bài
+                        </div>
+                        <div class="container__cur-course-item-progress-bar">
+                          <div
+                            class="container__cur-course-item-progress-value"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="container__cur-course-item">
+                  <a href="">
+                    <div class="container__cur-course-item-thumb">
+                      <img
+                        src="asset/img/home/container/course_thumb/english-words-for-elementary-1621595753.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="container__cur-course-item-detail">
+                      <div class="container__cur-course-item-name">
+                        English Words For Elementary (A1)
+                      </div>
+                      <div class="container__cur-course-item-progress">
+                        <div class="container__cur-course-item-progress-desc">
+                          Đã học <span>12</span> / <span>35</span> bài
+                        </div>
+                        <div class="container__cur-course-item-progress-bar">
+                          <div
+                            class="container__cur-course-item-progress-value"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="container__cur-course-item">
+                  <a href="">
+                    <div class="container__cur-course-item-thumb">
+                      <img
+                        src="asset/img/home/container/course_thumb/english-words-for-elementary-1621595753.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="container__cur-course-item-detail">
+                      <div class="container__cur-course-item-name">
+                        English Words For Elementary (A1)
+                      </div>
+                      <div class="container__cur-course-item-progress">
+                        <div class="container__cur-course-item-progress-desc">
+                          Đã học <span>12</span> / <span>35</span> bài
+                        </div>
+                        <div class="container__cur-course-item-progress-bar">
+                          <div
+                            class="container__cur-course-item-progress-value"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <template class="course-group-template">
+            <div class="container__courses-group">
+              <div class="container__courses-group-header">
+                <div class="container__courses-group-header-line"></div>
+                <div class="container__courses-group-header-name">
+                  Từ vựng theo chuẩn CEFR
+                </div>
+              </div>
+
+              <div class="container__courses-group-wrapper">
+                <div class="row row-cols-lg-5"></div>
+              </div>
+            </div>
+          </template>
+
+          <template class="course-template">
+            <div class="col">
+              <div class="container__courses-group-item">
+                <a href="">
+                  <img
+                    src="asset/img/home/container/course_thumb/english-words-for-starter-1621594978.jpg"
+                    alt=""
+                  />
+                  <h4>English Words For Starter (A0)</h4>
+                  <div class="container__courses-group-item-lesson">
+                    <span>29</span> lessons
+                  </div>
+                  <div class="container__courses-group-item-level">
+                    <span class="a0">A0</span>
+                    <span class="a1">A1</span>
+                    <span class="a2">A2</span>
+                    <span class="b1">B1</span>
+                    <span class="b2">B2</span>
+                    <span class="c1">C1</span>
+                    <span class="c2">C2</span>
+                  </div>
+                  <div class="container__courses-group-item-desc">
+                    Khoá học English Words For Starters bao gồm 400 từ vựng
+                    tiếng Anh căn bản được sắp xếp theo chủ đề, khóa học phù hợp
+                    cho người mới bắt đầu học tiếng Anh hoặc trình độ A0.
+                  </div>
+                </a>
+              </div>
+            </div>
+          </template>
+
+          <div class="container__courses">
+            <div class="container__section-header-content">
+              <h2>Hệ thống khóa học</h2>
+              <div class="course-filter">
+                <div class="filter-search">
+                  <input type="text" placeholder="TÌM KIẾM" />
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="filter-group dropdown">
+                  <div
+                    class="dropdown-toggle filter-group-btn"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    NHÓM
+                  </div>
+                  <ul
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="dropdownMenuButton1"
+                  ></ul>
+                </div>
+                <div class="filter-level dropdown">
+                  <div
+                    class="dropdown-toggle filter-group-btn"
+                    id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    CẤP ĐỘ
+                  </div>
+                  <ul
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="dropdownMenuButton2"
+                  >
+                    <li class="dropdown-item">
+                      <img
+                        src="/asset/img/home/container/level/filter-a0.svg"
+                        alt=""
+                      />
+                      <span>Khóa A0</span>
+                    </li>
+                    <li class="dropdown-item">
+                      <img
+                        src="/asset/img/home/container/level/filter-a0.svg"
+                        alt=""
+                      />
+                      <span>Khóa A0</span>
+                    </li>
+                    <li class="dropdown-item">
+                      <img
+                        src="/asset/img/home/container/level/filter-a0.svg"
+                        alt=""
+                      />
+                      <span>Khóa A0</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="container__courses-content">
+              <div class="container__courses-group">
+                <div class="container__courses-group-header">
+                  <div class="container__courses-group-header-line"></div>
+                  <div class="container__courses-group-header-name">
+                    Khóa học Miễn phí
+                  </div>
+                </div>
+
+                <div class="container__courses-group-wrapper">
+                  <div class="row row-cols-lg-5"></div>
+                </div>
+              </div>
+
+              <div class="container__courses-group">
+                <div class="container__courses-group-header">
+                  <div class="container__courses-group-header-line"></div>
+                  <div class="container__courses-group-header-name">
+                    Từ vựng theo chuẩn CEFR
+                  </div>
+                </div>
+
+                <div class="container__courses-group-wrapper">
+                  <div class="row row-cols-lg-5"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-cover">
+          <ul>
+            <li>
+              <a href="">VỀ MYVOCAB</a>
+            </li>
+            <li>
+              <a href="">KHÓA HỌC</a>
+            </li>
+            <li>
+              <a href="">PREMIUM</a>
+            </li>
+            <li>
+              <a href="">BLOG</a>
+            </li>
+            <li>
+              <a href="">LIÊN HỆ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

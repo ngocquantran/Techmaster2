@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+.container {
+    background-color: rgb(228, 226, 226);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.content {
+    --dimension: 500px ;
+    width: var(--dimension);
+    height: calc(var(--dimension)*0.6);
+    background-color: rgb(252, 251, 249);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.title {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.weight, .height {
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 0 10px inset;
+    color: black;
+    padding-left: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.input-box{
+    position: relative;
+    height: 50px;
+    width: 40%;
+    
+}
+
+
+
+.input-box p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-size: 1.8rem;
+    color: rgb(194, 191, 191);
+    
+}
+
+::placeholder {
+    color: rgb(194, 191, 191);
+}
+
+.input {
+    display: flex;
+    justify-content: space-around ;
+}
+
+input:focus{
+    outline: none;
+}
+
+.result, .comment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.calculate {
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right, #ee7d49, #dd7474);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: aliceblue;
+
+}
+
+.calculate:hover {
+    background-image: linear-gradient(to right, #aaa6a4, #44be77);
+}
+.bmi {
+    font-weight: bold;
+}
+
+
+

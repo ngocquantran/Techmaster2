@@ -1,0 +1,379 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro-left img {
+  max-width: 100%;
+  margin-top: 150px;
+}
+.intro-right {
+  background-image: url(img/background1.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 45%;
+  padding-bottom: 150px;
+}
+
+.intro-script {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.header {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header > .row {
+  align-items: flex-end;
+}
+.intro-nav {
+  justify-content: flex-end;
+}
+.intro-nav > a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.intro-nav > a:hover {
+  color: #ff817e;
+}
+.intro-subtitle {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  color: #ff817e;
+  font-family: "Rufina", serif;
+  letter-spacing: 1.5px;
+}
+.intro-title {
+  color: #1e2528;
+  line-height: 75px;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Rufina", serif;
+  max-width: 500px;
+}
+.intro-script {
+  color: #555;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 27px;
+  max-width: 500px;
+}
+.intro-button {
+  align-items: center;
+}
+.intro-button > button {
+  padding: 10px 15px 10px 15px;
+  background-color: #ff817e;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+.intro-button > button:hover {
+  color: black;
+}
+.intro-button > a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.intro-button > a:hover {
+  color: #ff817e;
+}
+.about {
+  position: relative;
+}
+.flower1 {
+  position: absolute;
+  left: 16%;
+  top: 0;
+  max-width: 160px;
+}
+.flower2 {
+  position: absolute;
+  right: 135px;
+  top: 50%;
+}
+.about > .container,
+.footer > .container {
+  text-align: center;
+  max-width: 900px;
+}
+.about-subheading {
+  color: #888;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+.about-heading,
+.procedure-heading,
+.team-heading,
+.blog-heading,
+.contact-heading {
+  font-size: 50px;
+  color: #1e2528;
+  font-family: "Rufina", serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+.about-script,
+.procedure-script,
+.team-script,
+.blog-script,
+.contact-script {
+  color: #888;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 27px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.about-readmore > button {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  color: white;
+  background-color: #ff817e;
+  padding: 15px 30px;
+  border-radius: 20px;
+  border: none;
+}
+.about-readmore > button :hover {
+  color: black;
+}
+.about-img a:hover {
+  opacity: 0.2;
+}
+
+.procedure,
+.team,
+.blog,
+.contact {
+  margin-top: 100px;
+  text-align: center;
+}
+.procedure > .container {
+  text-align: center;
+}
+.procedure-menu {
+  justify-content: center;
+}
+.procedure-menu-item {
+  border: solid lightgray thin;
+  max-width: 350px;
+  padding: 20px 20px 50px 20px;
+  margin-right: 30px;
+  text-align: center;
+}
+.procedure-menu-item > img {
+  margin-bottom: 30px;
+}
+.procedure-menu-item > button {
+  margin-top: 40px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  background-color: #30383b;
+  color: white;
+}
+.procedure-menu-item > button:hover {
+  background-color: #ff817e;
+}
+.procedure-menu-item > a {
+  text-decoration: none;
+  color: #263a41;
+  font-size: 22px;
+}
+.procedure-menu-item > p {
+  margin-top: 30px;
+}
+.quote {
+  background-color: #fcf7f7;
+  margin-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.quote-script > p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 900px;
+  color: #263a41;
+  font-family: "Rufina", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.avatar {
+  border-radius: 100%;
+}
+.signature {
+  justify-content: center;
+  margin-top: 25px;
+  align-items: flex-end;
+}
+.signature div {
+  font-size: 22px;
+  color: #263a41;
+  font-family: "Rufina", serif;
+  font-weight: 400;
+}
+.signature span {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+.team-img {
+  justify-content: center;
+}
+.team-img div {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.appointment {
+  margin-top: 100px;
+  background-color: #fcf7f7;
+}
+.appointment input {
+  width: 100%;
+  border: none;
+  background-color: #fcf7f7;
+  border-bottom: solid thin;
+  border-bottom-color: lightgray;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.appointment form {
+  margin-right: 10px;
+}
+.input-field {
+  margin-top: 30px;
+}
+.appointment select {
+  width: 100%;
+  border: none;
+  background-color: #fcf7f7;
+  border-bottom: solid thin;
+  border-bottom-color: lightgray;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.appointment button {
+  padding: 15px 15px;
+  border-radius: 30px;
+  background-color: #ff817e;
+  color: white;
+  border: none;
+}
+.select-field {
+  margin-right: 10px;
+}
+.appointment button:hover {
+  color: black;
+}
+.contact-info span {
+  color: white;
+  background-color: #ff817e;
+  padding: 20px;
+  border-radius: 40px;
+}
+.contact-info-left {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.contact-detail {
+  text-align: start;
+  margin-left: 30px;
+  color: #888;
+  font-size: 14px;
+  font-weight: 400;
+}
+.contact form {
+  text-align: start;
+}
+.contact input {
+  border: solid lightgray thin;
+  height: 50px;
+  width: 100%;
+  padding-left: 15px;
+}
+.contact button {
+  padding: 20px 25px;
+  border-radius: 30px;
+  background-color: #ff817e;
+  color: white;
+  border: none;
+}
+.contact button:hover {
+  color: black;
+}
+.send-contact {
+  text-align: start;
+}
+.footer {
+  margin-top: 50px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: #fcf7f7;
+}
+.footer > .container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-nav-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-evenly;
+}
+.footer-nav-text a,
+.footer-nav-icon a {
+  text-decoration: none;
+  color: black;
+}
+.footer-nav-text a:hover,
+.footer-nav-icon a:hover {
+  color: #ff817e;
+}
+.footer-nav-icon {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer-nav-icon a,
+.footer-nav-icon p {
+  margin-right: 15px;
+}
+.copyright {
+  justify-content: center;
+}
+.copyright a {
+  text-decoration: none;
+  color: #ff817e;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wide">
+        <div class="header-content">
+          <div class="header-nav">
+            <a href=""> <p>Trang chủ</p></a>
+            <a href=""> <p>Công việc</p></a>
+            <a href=""> <p>Công ty</p></a>
+          </div>
+
+          <div class="search">
+            <form action="">
+              <input type="text" placeholder="keyword" />
+              <button type="submit"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="employers">
+      <div class="select-form">
+        <div class="wide">
+          <form action="">
+            <select name="company-type" id="company-type">
+              <option value="all">Tất cả</option>
+              <option value="outsource">Outsourcing</option>
+              <option value="product">Product</option>
+            </select>
+            <select name="location" id="company-location">
+              <option value="all">Tất cả</option>
+              <option value="hanoi">Hà Nội</option>
+              <option value="hochiminh">Hồ Chí Minh</option>
+            </select>
+            <button type="submit"><i class="bi bi-funnel"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="wide">
+          <div class="add-btn"><a href="">Thêm công ty</a></div>
+          <table>
+            <thead>
+              <tr>
+                <th>STT</th>
+                <th>Logo</th>
+                <th>Tên công ty</th>
+                <th>Loại</th>
+                <th>Địa chỉ</th>
+                <th>Email</th>
+                <th>Khác</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="number">1</td>
+                <td class="logo"><div><img src="/default-avatar.jpg" alt=""></div></td>
+                <td class="company-name">FPT software</td>
+                <td class="company-type">Product</td>
+                <td class="company-location">Hà Nội, Hồ Chí Minh</td>
+                <td class="company-email">fpt@gmail.com</td>
+                <td class="other">
+                  <a href="" class="edit-btn"><i class="bi bi-pencil-square"></i></a>
+                  <span class="delete-btn"><i class="bi bi-trash"></i></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

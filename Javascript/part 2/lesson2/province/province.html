@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      select {
+        width: 300px;
+        height: 30px;
+        margin: 10px 0 20px;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <label for="">Tỉnh </label>
+      <select class="province" name="" id=""></select>
+      <label for="">Huyện </label>
+      <select class="district" name="" id=""></select>
+      <label for="">Xã </label>
+      <select class="commune" name="" id=""></select>
+    </div>
+
+    <script>
+      $(function () {
+        const $province = $(".province");
+        const $district = $(".district");
+        const $commune = $(".commune");
+        async function getProvince() {
+          try {
+            let res = await axios.get("https://provinces.open-api.vn/api/p/");
+            console.log(res);
+            // Hiển thị danh sách giống loài chính
+            displayProvince(res.data);
+          } catch (error) {
+            console.log(error);
+          }
+        }
+        getProvince();
+        // getDistrict(1);
+        // getCommune(1);
+
+        function displayProvince(obj) {
+          let html = '<option value="">--Chọn tỉnh thành--</option>';
+          for (let i = 0; i < obj.length; i++) {
+            html += `<option value="${obj[i].code}">${obj[i].name}</option>`;
+          }
+          $province.html(html);
+        }
+
+        async function getDistrict(code) {
+          try {
+            let res = await axios.get(
+              `https://provinces.open-api.vn/api/p/${code}?depth=2`
+            );
+            console.log(res);
+            // Hiển thị danh sách giống loài chính
+            displayDistrict(res.data.districts);
+          } catch (error) {
+            console.log(error);
+          }
+        }
+
+        $province.change(function () {
+          console.log($province.val());
+          getDistrict($province.val());
+          $commune.val(0);
+        });
+
+        function displayDistrict(obj) {
+          let html = "";
+          for (let i = 0; i < obj.length; i++) {
+            html += `<option value="${obj[i].code}">${obj[i].name}</option>`;
+          }
+          $district.html(html);
+        }
+
+        // getDistrict(1);
+
+        $district.change(function () {
+          console.log($district.val());
+          getCommune($district.val());
+        });
+
+        async function getCommune(code) {
+          try {
+            let res = await axios.get(
+              `https://provinces.open-api.vn/api/d/${code}?depth=2`
+            );
+            console.log(res);
+            // Hiển thị danh sách giống loài chính
+            displayCommune(res.data.wards);
+          } catch (error) {
+            console.log(error);
+          }
+        }
+
+        function displayCommune(obj) {
+          let html = "";
+          for (let i = 0; i < obj.length; i++) {
+            html += `<option value="${obj[i].code}">${obj[i].name}</option>`;
+          }
+          $commune.html(html);
+        }
+
+        // getCommune(1);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        height: 40px;
+        width: 100px;
+        margin-right: 20px;
+      }
+      .color {
+        width: 200px;
+        height: 50px;
+        background-color: #fff;
+        text-align: center;
+        line-height: 50px;
+        border: 1px solid black;
+      }
+    </style>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <button class="btn-1">Đổi màu theo tên</button>
+    <button class="btn-2">Đổi màu theo HEX</button>
+    <button class="btn-3">Đổi màu theo RBG</button>
+
+    <h2 class="color">Tên màu</h2>
+
+    <script>
+      const $btn1 = $(".btn-1");
+      const $btn2 = $(".btn-2");
+      const $btn3 = $(".btn-3");
+      const $colorName = $(".color");
+
+      async function getColor(colorType) {
+        try {
+          let res = await axios.get(
+            `http://localhost:8080/random-color?type=${colorType}`
+          );
+          console.log(res);
+          $("body").css({
+            "background-color": res.data,
+          });
+          $colorName.text(res.data);
+        } catch (error) {
+          console.log(error.response);
+        }
+      }
+      getColor(1);
+      $btn1.on("click", function () {
+        getColor(1);
+      });
+      $btn2.on("click", function () {
+        getColor(2);
+      });
+      $btn3.on("click", function () {
+        getColor(3);
+      });
+    </script>
+  </body>
+</html>

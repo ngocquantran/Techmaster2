@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: aqua;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer p {
+  margin-left: 20px;
+}
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search {
+  width: 400px;
+  position: relative;
+}
+.input-field {
+  width: 100%;
+  height: 60px;
+  border-radius: 60px;
+  padding-left: 20px;
+}
+.circle {
+  border: solid grey thin;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  background-color: lightgray;
+}
+.icon {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  right: 15px;
+  top: 20px;
+}
+.button i {
+  border: solid grey thin;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  text-align: center;
+  vertical-align: center;
+}
+.search label {
+  position: absolute;
+  color: grey;
+  top: 20px;
+  left: 21px;
+}
+input {
+  padding-left: 20px;
+}
+input:focus + label {
+  top: -20px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.main-menu {
+  background-color: grey;
+  line-height: 30px;
+}
+.main-item a {
+  color: white;
+  width: 150px;
+  padding-left: 5px;
+  margin-right: 20px;
+}
+.main-item {
+  position: relative;
+}
+.sub-menu {
+  display: none;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 30px;
+  left: 0;
+  background-color: grey;
+}
+.main-item:hover .sub-menu {
+  display: block;
+}
+.main-item:hover {
+  background-color: blue;
+}
+.header {
+  margin-bottom: 200px;
+}
+.sub-item {
+  position: relative;
+  width: 100%;
+}
+.sub-sub-menu {
+  display: none;
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  left: 110px;
+  background-color: grey;
+}
+.sub-item:hover .sub-sub-menu {
+  display: block;
+}
